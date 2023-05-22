@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:padding="40dp"
+    tools:context=".ProsesPenukaran">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/image1"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/prosesPenukaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penukaran"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#729D39"
+            android:layout_marginTop="265dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <TextView
+                    android:id="@+id/NamaDataPenukaran"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_edittext"
+                    android:drawablePadding="8dp"
+                    android:hint="Nama Data Penukaran"
+                    android:padding="15dp"
+                    android:textColor="#729D39"
+                    android:textColorHint="#729D39"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/DeskripsiDataPenukaran"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_edittext"
+                    android:drawablePadding="8dp"
+                    android:hint="Deskripsi Data Penukaran"
+                    android:padding="15dp"
+                    android:textColor="#729D39"
+                    android:textColorHint="#729D39"
+                    android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/PointDataPenukaran"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/custom_edittext"
+                        android:hint="Poin Item"
+                        android:padding="15dp"
+                        android:textColor="#729D39"
+                        android:textColorHint="#729D39"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/PointPengguna"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/custom_edittext"
+                        android:clickable="true"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:hint="Poin"
+                        android:padding="15dp"
+                        android:textColor="#729D39"
+                        android:textColorHint="#729D39"
+                        android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <EditText
+                        android:id="@+id/AlamatPenggunaPenukaran"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/custom_edittext"
+                        android:drawablePadding="8dp"
+                        android:hint="Alamat Pengguna Penukaran"
+                        android:textSize="14dp"
+                        android:padding="15dp"
+                        android:textColor="#729D39"
+                        android:textColorHint="#729D39" />
+
+                    <EditText
+                        android:id="@+id/NohpPenggunaPenukaran"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/custom_edittext"
+                        android:drawablePadding="8dp"
+                        android:hint="Nomor Telepon"
+                        android:textSize="14dp"
+                        android:padding="15dp"
+                        android:textColor="#729D39"
+                        android:textColorHint="#729D39" />
+
+                    <ImageView
+                        android:id="@+id/ImageDataPenukaran"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/custom_edittext"
+                        android:gravity="center" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+                    <Button
+                        android:id="@+id/penukaran_button"
+                        android:layout_width="200dp"
+                        android:layout_height="60dp"
+                        android:text="Tukar"
+                        android:textSize="18sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#FFFFFF"
+                        app:cornerRadius = "20dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

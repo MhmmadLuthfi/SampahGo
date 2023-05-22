@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity"
+    android:padding="40dp"
+    android:background="@drawable/login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/image1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#729D39"
+        android:layout_marginTop="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/logoaplikasi"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SampahGo"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#36622B"
+                android:paddingTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aplikasi ini merupakan sebuah aplikasi yang digunakan untuk memfasilitasi kegiatan pengumpulan sampah dan penukaran sampah dengan nilai atau poin di dalamnya.\n \nAplikasi ini bertujuan untuk mengurangi jumlah sampah yang berakhir di tempat pembuangan akhir (TPA) dan meningkatkan kesadaran masyarakat akan pentingnya pengelolaan sampah yang baik. \n \nAplikasi ini mengajak masyarakat untuk memilah dan mengumpulkan sampah yang masih memiliki nilai, seperti kertas, botol plastik, kaleng, dan sebagainya. Kemudian, sampah-sampah ini dapat dibawa ke Bank Sampah kemudian pengguna mendapatkan poin lalu dapat menukarnya dengan barang sederhana. "
+                android:textColor="#36622B"
+                android:textSize="14dp"
+                android:layout_marginTop="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

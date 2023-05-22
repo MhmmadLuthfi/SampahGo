@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:padding="40dp"
+    tools:context=".Kategori">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/image1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kategori"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#729D39"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/gambar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="315dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kategori Sampah"
+                android:textStyle="bold"
+                android:textColor="#36622B"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Kertas = 2 Point"
+                android:textStyle="bold"
+                android:textColor="#36622B"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Koran \n2. Buku Kertas \n3. HVS \n4. Karton \n5. Kertas Warna \n6. Lainnya"
+                android:textColor="#36622B"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Kaca = 2 Point"
+                android:textStyle="bold"
+                android:textColor="#36622B"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Botol Kecap \n2. Botol Saos  \n3. Botol Sirup DHT \n4. Botol Minuman \n5. Lainnya"
+                android:textColor="#36622B"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Elektronik  = 3 Point"
+                android:textStyle="bold"
+                android:textColor="#36622B"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. TV \n2. Kipas Angin \n3. Laptop \n4. Handphone \n5. Mesin Cuci \n6. AC \n7. Kulkas \n8. Dispenser \n9. Rice Cooker \n10. Lainnya"
+                android:textColor="#36622B"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Besi dan Logam  = 3 Point"
+                android:textStyle="bold"
+                android:textColor="#36622B"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Besi Tebal \n2. Besi Tipis \n3. Kuningan \n4. Tembaga Biasa \n5. Tembaga Super \n6. Timah \n7. Kepala Aki \n8. Aki \n9. Besi Premium \n10. Lainnya"
+                android:textColor="#36622B"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Aluminium  = 3 Point"
+                android:textStyle="bold"
+                android:textColor="#36622B"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Alma Tipis \n2. Alma Tebal \n3. Les \n4. Kaleng/Seng \n5. Lainnya"
+                android:textColor="#36622B"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Plastik = 4 Point"
+                android:textStyle="bold"
+                android:textColor="#36622B"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Plastik Gelas \n2. Gelas Warna \n3. Botol Campur \n4. Damar \n5. Lainnya"
+                android:textColor="#36622B"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:paddingLeft="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
